@@ -17,11 +17,11 @@ public class HelpMenuController {
     // Build a button that will be used to close the Help Menu Window
     @FXML
     // set a private Button Type variable that will be used to represent the close HelpMenu button
-    // private Button closeBtn;
+    // private Button closeB;
 
     // create a public void method that will represent the functionality of the close button
     // of the help menu screen
-    public void closeBtnHelpMenu(ActionEvent actionEvent) {
+    public void closeBtnHelpMenu(ActionEvent e) {
 
         // generate an event to close the help menu window whenever the close button gets clicked
         // first we get the current stage by using the close button instance with .getScene().getWindow()
